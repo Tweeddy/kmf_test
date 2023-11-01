@@ -1,17 +1,29 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <div v-for="(cell_data) in data.cells" :key=cell_data.id> 
+      <Cell :data = cell_data />
+    </div>
+    
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Cell from './components/form_cell.vue'
+import mock_data from './mock_data/data.json'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Cell
+  },
+  data() {
+    return {
+      data: [],
+    }
+  },
+  mounted() {
+    this.data = mock_data;
+  
   }
 }
 </script>
@@ -23,6 +35,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  padding-top: 60px;
+  background-color: #ccc;
 }
 </style>

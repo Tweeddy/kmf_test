@@ -1,0 +1,159 @@
+{ 
+    "cells": [
+    {   
+        "id": "id1_full",
+        "type" : "full", 
+        "height": 56,
+        "title": "Title",
+        "subtitle": "",
+        "error": "",
+        "icon": "",
+        "img": "",
+        "icon_bg": "",
+        "right_content":"icon"
+    },
+    {
+        "id": "id2_full",
+        "type" : "full", 
+        "height": 64,
+        "title": "Title",
+        "subtitle": "Subtitle",
+        "error": "",
+        "icon": "",
+        "img": "",
+        "icon_bg": "",
+        "right_content":"icon"
+    },
+    {
+        "id": "id3_full",
+        "type" : "full", 
+        "height": 64,
+        "title": "Title",
+        "subtitle": "Subtitle",
+        "error": "Error",
+        "icon": "",
+        "img": "",
+        "icon_bg": "",
+        "right_content":"error"
+    },
+    {   
+        "id": "id1",
+        "type" : "island", 
+        "height": 56,
+        "title": "Title",
+        "subtitle": "",
+        "error": "",
+        "icon": "",
+        "img": "",
+        "icon_bg": "",
+        "right_content":"icon"
+    },
+    {   
+        "id": "id2",
+        "type" : "island", 
+        "height": 56,
+        "title": "Title",
+        "subtitle": "Subtitle",
+        "error": "",
+        "icon": "",
+        "img": "",
+        "icon_bg": "",
+        "right_content": "text"
+    },
+    {   
+        "id": "id3",
+        "type" : "island", 
+        "height": 56,
+        "title": "Title",
+        "subtitle": "",
+        "error": "Error",
+        "icon": "",
+        "img": "",
+        "icon_bg": "",
+        "right_content": "error"
+    },
+    {   
+        "id": "id4",
+        "type" : "island", 
+        "height": 56,
+        "title": "Title",
+        "subtitle": "Subtitle",
+        "error": "Error",
+        "icon": "",
+        "img": "",
+        "icon_bg": "",
+        "right_content":"error"
+    },
+    {   
+        "id": "id5",
+        "type" : "island", 
+        "height": 64,
+        "title": "Тайтл в две строки. Тайтл в две строки",
+        "subtitle": "",
+        "error": "",
+        "icon": "",
+        "img": "",
+        "icon_bg":"",
+        "right_content":"link"
+    },
+    {   
+        "id": "id6",
+        "type" : "island", 
+        "height": 76,
+        "title": "Тайтл в две строки. Тайтл в две строки",
+        "subtitle": "Subtitle",
+        "error": "",
+        "icon": "",
+        "img": "",
+        "icon_bg":"",
+        "right_content":"checkbox"
+    },
+    {   
+        "id": "id7",
+        "type" : "island", 
+        "height": 56,
+        "title": "Title",
+        "subtitle": "",
+        "error": "",
+        "icon": "wallet",
+        "img": "",
+        "icon_bg":"",
+        "right_content": "button"
+    },
+    {   
+        "id": "id8",
+        "type" : "island", 
+        "height": 56,
+        "title": "Title",
+        "subtitle": "",
+        "error": "",
+        "icon": "wallet",
+        "img": "",
+        "icon_bg": "#F19C98",
+        "right_content": "message_info"
+    },
+    {   
+        "id": "id9",
+        "type" : "island", 
+        "height": 56,
+        "title": "Title",
+        "subtitle": "Subtitle",
+        "error": "",
+        "icon": "wallet",
+        "img": "",
+        "icon_bg":""
+    },
+   
+    {
+        "id": "id10",
+        "type" : "island", 
+        "height": 70,
+        "title": "Котэ пестрый",
+        "subtitle": "",
+        "error": "",
+        "img": "https://storage.bankoboev.ru/thumbnail/8/thumb375492.jpg",
+        "icon_bg":""
+    }
+]
+    
+}
